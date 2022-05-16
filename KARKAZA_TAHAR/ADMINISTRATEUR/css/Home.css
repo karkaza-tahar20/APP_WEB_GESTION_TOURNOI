@@ -1,0 +1,77 @@
+.logo{
+	margin-left: 2px;
+}
+#footer-area{
+	padding: 0px 0 0px 0;
+	background:#262626;
+	color: #fff;
+	height: 10px;
+}
+.footer-social{
+	margin-top: 10px;
+}
+.single-footer h3{
+	font-weight: 500px;
+
+	color: #fafafa;
+	font-family: Merienda;
+}
+.link-area li{
+	padding: 5px 5px 5px 0;
+	list-style: none;
+}
+.link-area li a{
+	text-transform: capitalize;
+	color: #ddd;
+	font-family: Merienda;
+}
+.link-area li a i{
+	margin-right: 10px;
+	color: #ddd;
+}
+.link-area{
+	padding: 0;
+}
+.single-footer p{
+	font-family: Merienda;
+}
+.footer-social li a{
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	background:#000;
+}
+.footer-social li a i{
+	color: #fff;
+	padding: 8px;
+}
+.widget li{
+	float: left;
+	width: 50%;
+}
+
+@media (max-width: 992px){
+	.toggle{
+		display: block;
+	}
+	header{
+		padding: 0 0;
+		background:rgba(255,255,255,.5);
+	}
+	header ul{
+		width: 100%;
+		top: -4px;
+		display: none;
+	}
+	header ul.active{
+		display: block;
+		z-index: 2;
+	}
+	header ul li a{
+		margin: 0;
+		display: block;
+		text-align: center;
+		color: #fff;
+		background:rgba(0,0,0,.5);
+	}
+}
